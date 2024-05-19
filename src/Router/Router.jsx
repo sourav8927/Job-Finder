@@ -6,6 +6,7 @@ import Home from "../components/Home";
 import SalaryPage from "../components/SalaryPage";
 import AboutJapan from "../components/AboutJapan";
 import CurrentJobs from "../components/CurrentJobs";
+import PostJob from "../components/PostJob";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
           path:"/current-jobs",
           element:<CurrentJobs/>
+        },
+        {
+          path:"/post-job",
+          element:<PostJob/>
         }
       ]
     },

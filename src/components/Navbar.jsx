@@ -19,6 +19,7 @@ const Navbar = () => {
           <NavLink to="/" ><li>Start a search</li></NavLink>
           <NavLink to="/current-jobs"><li>Current Jobs</li></NavLink>
           <NavLink to="/salary-estimate"><li>Salary Estimate</li></NavLink>
+          <NavLink to="/post-job"><li>Post job</li></NavLink>
           <NavLink to="/about-japan"><li>About Japan</li></NavLink>
         </ul>
 
@@ -41,6 +42,7 @@ const Navbar = () => {
       <NavLink to="/" ><li className='py-1'>Home</li></NavLink>
           <NavLink to="/current-jobs"><li className='py-1'>Current Jobs</li></NavLink>
           <NavLink to="/salary-estimate"><li className='py-1'>Salary Estimate</li></NavLink>
+          <NavLink to="/post-job"><li>Post job</li></NavLink>
           <NavLink to="/about-japan"><li className='py-1'>About Japan</li></NavLink>
         <div className='flex py-4 gap-2'>
           <li><Link to="/" className='py-2 px-5 border rounded'>Log in</Link></li>
