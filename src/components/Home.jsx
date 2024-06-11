@@ -14,7 +14,7 @@ const Home = () => {
   const itemsPerPage = 6;
 
   const fetchData = async () => {
-    let data = await fetch("http://127.0.0.101:5000/api/jobs/");
+    let data = await fetch("http://127.0.0.5:3000/api/jobs/");
     let response = await data.json();
     console.log(response);
     setjobs(response);

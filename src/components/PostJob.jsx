@@ -17,7 +17,7 @@ const PostJob = () => {
   const navigate= useNavigate();
   //for posting the job to database
   const fetchData= async(data)=>{
-    const url = 'http://127.0.0.101:5000/api/jobs/addJob';
+    const url = 'http://127.0.0.5:3000/api/jobs/addJob';
   const options = {
     method: 'POST',
     headers: {

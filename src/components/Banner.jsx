@@ -5,8 +5,8 @@ const Banner = ({query,handleInputChange}) => {
     
   return (
     <div className='max-w-screen-2xl container mx-auto xl:px-24 px-4 md:py-20 py-14  mt-20'>
-     {/* <h1 className='text-5xl font-bold mb-3'>Find your <span className='text-blue-500'>new job</span> today</h1> */}
-     <div>
+     <h1 className='text-5xl font-bold mb-3'>Find your <span className='text-blue-500'>new job</span> today</h1>
+     {/* <div>
      <div class="wrapper">
     <div class="static-txt"></div>
     <ul class="dynamic-txts text-blue-500">
@@ -16,7 +16,7 @@ const Banner = ({query,handleInputChange}) => {
       <li><span className='text-4xl font-bold mb-3'>検索を始めましょう</span></li>
     </ul>
   </div>
-     </div>
+     </div> */}
      <p className='text-lg text-black/70 mb-8 mt-5'>Thousands of jobs in computer, engineering and technology sectors are waiting for you</p>
 
      <form action="">
